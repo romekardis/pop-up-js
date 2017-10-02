@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  border-collapse: collapse;
+  box-sizing: border-box; }
+
+.container-links {
+  text-align: center;
+  margin-top: 100px; }
+  .container-links li {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin-right: 40px;
+    background: url("../../app/img/icons.png") 0px -46px no-repeat; }
+    .container-links li a {
+      width: 100%;
+      height: 100%;
+      display: block; }
+  .container-links li:hover {
+    background: url("../../app/img/icons.png") 0px 0px no-repeat; }
+  .container-links li:nth-child(2) {
+    background: url("../../app/img/icons.png") -45px -46px no-repeat; }
+  .container-links li:nth-child(2):hover {
+    background: url("../../app/img/icons.png") -45px 0px no-repeat; }
+  .container-links li:nth-child(3) {
+    background: url("../../app/img/icons.png") -90px -46px no-repeat; }
+  .container-links li:nth-child(3):hover {
+    background: url("../../app/img/icons.png") -90px 0px no-repeat; }
+  .container-links li:nth-child(4) {
+    background: url("../../app/img/icons.png") -135px -46px no-repeat; }
+  .container-links li:nth-child(4):hover {
+    background: url("../../app/img/icons.png") -135px 0px no-repeat; }
+  .container-links li:nth-child(5) {
+    margin-right: 0;
+    background: url("../../app/img/icons.png") -180px -46px no-repeat; }
+  .container-links li:nth-child(5):hover {
+    background: url("../../app/img/icons.png") -180px 0px no-repeat; }
+
+.shadow-view {
+  display: none; }
+
+.shadow {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  top: 0;
+  position: fixed; }
+  .shadow .popupContainer {
+    margin: 150px auto;
+    width: 600px;
+    height: 400px; }
+    .shadow .popupContainer__header {
+      border-radius: 15px 15px 0 0;
+      background: #73a5d4;
+      height: 15%; }
+      .shadow .popupContainer__header h1 {
+        color: white;
+        padding-left: 10px;
+        font: 400 25px/60px "Roboto", sans-serif; }
+    .shadow .popupContainer__content {
+      overflow: auto;
+      background: white;
+      height: 70%; }
+      .shadow .popupContainer__content p {
+        padding: 10px;
+        font: 400 20px/25px "Roboto", sans-serif; }
+    .shadow .popupContainer__buttons {
+      border-radius: 0 0 15px 15px;
+      background: #cccccc;
+      height: 15%;
+      text-align: center; }
+      .shadow .popupContainer__buttons button {
+        border-radius: 10px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        background: #73a5d4;
+        color: white;
+        font: 400 25px/30px "Roboto", sans-serif; }
+      .shadow .popupContainer__buttons button:hover {
+        cursor: pointer; }
+      .shadow .popupContainer__buttons button:first-child {
+        margin-right: 20px; }
